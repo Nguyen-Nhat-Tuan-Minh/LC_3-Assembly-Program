@@ -1,3 +1,21 @@
+; LC-3 Assembly Program: Division with User Input
+; Author: Minh Nguyen Nhat Tuan
+; Date: 13/12/2023
+
+; Description:
+; This LC-3 assembly program demonstrates a simple division operation where the user
+; is prompted to input the length of digits for both the dividend and divisor. After
+; obtaining the lengths, the program then prompts the user to enter the actual values
+; for the dividend and divisor. Subsequently, it performs the division operation,
+; computes the quotient and remainder, and outputs the results to the monitor.
+
+; How to Use:
+; 1. Run the program on an LC-3 simulator.
+; 2. When prompted, enter the length of digits for both the dividend and divisor.
+; 3. Input the actual values for the dividend and divisor.
+; 4. The program will calculate the quotient and remainder.
+; 5. The results will be displayed on the monitor.
+
 .ORIG x3000
 
 AGAIN
