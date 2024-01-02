@@ -1,3 +1,15 @@
+; LC-3 Assembly Program: Division with User Input
+; Author: Minh Nguyen Nhat Tuan
+; Date: 02/01/2024
+
+; Description:
+; This LC-3 assembly program demonstrates a simple division operation where the user
+; is prompted to input a 5-digit number
+
+; How to Use:
+; 1. Run the program on an LC-3 simulator.
+; 2. When prompted, enter 5 digits, then the input terminate.
+
 .ORIG x3000
 
 LD R2, INIT
