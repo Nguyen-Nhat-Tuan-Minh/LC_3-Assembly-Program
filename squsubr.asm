@@ -1,3 +1,17 @@
+; LC-3 Assembly Program: Division with User Input
+; Author: Minh Nguyen Nhat Tuan
+; Date: 13/12/2023
+
+; Description:
+; This LC-3 assembly program demonstrates a square operation where the user
+; load the original number in x3000. Subsequently, the program performs the square operation,
+; and outputs the results to the monitor.
+
+; How to Use:
+; 1. Run the program on an LC-3 simulator.
+; 2. Modify value at x3000 to the number for square.
+; 3. The results will be displayed on the monitor.
+
 .ORIG x3010
 
 LD R2, NUM
