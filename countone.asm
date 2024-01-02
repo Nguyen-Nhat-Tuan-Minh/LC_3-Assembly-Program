@@ -1,3 +1,17 @@
+; LC-3 Assembly Program: Count number of bit-1 with User Input from 0-9
+; Author: Minh Nguyen Nhat Tuan
+; Date: 02/01/2023
+
+; Description:
+; This LC-3 assembly program demonstrates the counting of bit-1 from User Input in true binary number.
+; The program converts ASCII input to binary output number
+; Counting algorithm: Shift right and check if negative number (leading 1).
+
+; How to Use:
+; 1. Run the program on an LC-3 simulator.
+; 2. When prompted, enter from keyboard between 0-9.
+; 3. The results will be displayed on the monitor.
+
 .ORIG x3000
 
 MAIN
@@ -5,8 +19,8 @@ LD R1, NEGASCII
 IN
 ADD R1, R1, R0
 
-JSR COUNT_ONE
-JSR OUTPUT
+JSR COUNT_ONE ; bit-1 counting subroutine
+JSR OUTPUT ; result display subroutine
 BR MAIN
 
 HALT
