@@ -1,4 +1,4 @@
-; LC-3 Assembly Program: Division with User Input
+; LC-3 Assembly Program: Square with value at x3000
 ; Author: Minh Nguyen Nhat Tuan
 ; Date: 13/12/2023
 
